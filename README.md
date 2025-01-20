@@ -1,57 +1,55 @@
-# Baza Gier - System Zarządzania Grami
-Projekt ten to prosty system zarządzania bazą gier, który umożliwia użytkownikowi przeglądanie, edycję, dodawanie, usuwanie, a także zapisywanie i odczytywanie danych z pliku. Oto główne funkcje systemu:
+# Game Database - Game Management System
+This project is a simple game management system that allows the user to browse, edit, add, delete, as well as save and read data from a file. Here are the main features of the system:
 
-## Funkcje Główne:
+## Main Features:
 
-Wyświetl nazwy wszystkich gier w bazie
-* Sortuje i wyświetla nazwy gier alfabetycznie.
+Display the names of all games in the database
+* Sorts and displays the game titles alphabetically.
   
-Wyświetl wszystkie gry w bazie
-* Wyświetla wszystkie gry w bazie wraz z ich szczegółami.
+Display all games in the database
+* Displays all games in the database along with their details.
   
-Wyświetl TOP 5 gier w bazie
-* Wyświetla pięć najlepiej ocenianych gier w bazie, posortowanych alfabetycznie.
+Display the TOP 5 games in the database
+* Displays the five highest-rated games in the database, sorted alphabetically.
   
-Wyświetl gry z gatunku
-* Pozwala użytkownikowi wprowadzić gatunek i wyświetla gry należące do tego gatunku.
+Display games by genre
+* Allows the user to input a genre and displays games belonging to that genre.
 
-Dodaj grę do bazy
-*Pozwala użytkownikowi dodawać nowe gry do bazy, podając tytuł, rok wydania, gatunek i domyślną ocenę graczy.
+Add a game to the database
+* Allows the user to add a new game to the database by providing the title, release year, genre, and default player rating.
 
-Edytuj grę w bazie
-* Umożliwia edycję istniejącej gry, poprzez podanie tytułu gry do edycji, a następnie wprowadzenie nowych danych.
+Edit a game in the database
+* Allows editing of an existing game by entering the title of the game to edit and then entering new data.
 
-Usuń grę z bazy
-* Pozwala użytkownikowi usunąć grę z bazy, podając tytuł gry do usunięcia.
+Delete a game from the database
+* Allows the user to delete a game from the database by providing the title of the game to delete.
 
-Wyświetl informacje o grze
-* Pozwala na wyświetlenie szczegółowych informacji o wybranej grze, poprzez podanie tytułu gry.
+Display game information
+* Displays detailed information about a selected game by entering the title of the game.
 
-Oceń grę
-* Pozwala użytkownikowi ocenić istniejącą grę, podając tytuł gry i nową ocenę graczy.
+Rate a game
+* Allows the user to rate an existing game by providing the game title and a new player rating.
 
-Zapisz dane do pliku
-* Zapisuje aktualne dane z bazy gier do pliku tekstowego o nazwie "gry.txt".
+Save data to a file
+* Saves the current game database data to a text file named "gry.txt".
 
-Odczytaj dane z pliku
-* Odczytuje dane z pliku "gry.txt" i wczytuje je do bazy gier.
+Read data from a file
+* Reads data from the "gry.txt" file and loads it into the game database.
 
-Zakończ
-* Kończy działanie programu.
+Exit
+* Ends the program.
 
-### Instrukcje korzystania:
-1. Program działa w nieskończonej pętli, gdzie użytkownik wybiera jedną z dostępnych opcji, podając numer.
-2. Dane gier są przechowywane w formie słowników w liście baza_gier.
-3. Po wykonaniu operacji, program wyświetla menu, aby użytkownik mógł kontynuować interakcję.
+### Instructions:
+1. The program runs in an infinite loop, where the user selects one of the available options by entering the corresponding number.
+2. Game data is stored as dictionaries in the `baza_gier` list.
+3. After each operation, the program displays the menu, allowing the user to continue interacting.
 
-### Przykład Użycia:
-* Wyświetlenie wszystkich gier.
-* Dodanie nowej gry.
-* Wyświetlenie informacji o grze.
-* Ocenienie gry.
-* Zapisanie danych do pliku.
-* Odczytanie danych z pliku.
-#### Uwaga: Projekt można rozwijać, dodając nowe funkcje, poprawiając obsługę błędów i dodając walidację danych wejściowych.
+### Example Usage:
+* Display all games.
+* Add a new game.
+* Display game information.
+* Rate a game.
+* Save data to a file.
+* Read data from a file.
 
-
-
+#### Note: The project can be expanded by adding new features, improving error handling, and adding input data validation.
